@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(place.jpg);
+  background-repeat: repeat-y 1;
+  background-size: contain;
+  background-origin: content-box;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.fondo {
+  display: block;
+  margin: auto;
+}
+.login {
+  width: 550px;
+  height: 550px;
+  background: white;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 10%;
+  border-color: goldenrod;
+  border-width: medium;
+  border-style: solid;
+  padding: 70px 30px;
+}
+.login .logo {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 0%;
+  border-radius: 10%;
+  display: block;
+}
+.login h1 {
+  margin-top: 20px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.login input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login .texto {
+  border: none;
+  border-bottom: 20px;
+  border-bottom: 2px solid black;
+  background: transparent;
+  text-align: center;
+  outline: none;
+  height: 40px;
+  color: grey;
+  font-size: 16px;
+}
+
+.login .clave {
+  border: none;
+  border-bottom: 20px;
+  border-bottom: 2px solid black;
+  background: transparent;
+  text-align: center;
+  outline: none;
+  height: 40px;
+  color: grey;
+  font-size: 16px;
+}
+.login .enviar {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: goldenrod;
+  color: white;
+  border-radius: 20px;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: darkgray;
+  text-align: center;
+}
+.login a:hover {
+  color: rgb(69, 69, 56);
+}
+
+.formulario {
+  width: 1000px;
+  height: 800px;
+  background: white;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 10%;
+  border-color: goldenrod;
+  border-width: medium;
+  border-style: solid;
+  padding: 70px 30px;
+}
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ .formulario h1 {
+  margin-top: 20px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.formulario input {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.formulario .texto {
+  border: none;
+  border-bottom: 20px;
+  border-bottom: 2px solid black;
+  background: transparent;
+  text-align: center;
+  outline: none;
+  height: 40px;
+  color: grey;
+  font-size: 16px;
+}
+
+.formulario .clave {
+  border: none;
+  border-bottom: 20px;
+  border-bottom: 2px solid black;
+  background: transparent;
+  text-align: center;
+  outline: none;
+  height: 40px;
+  color: grey;
+  font-size: 16px;
+}
+.formulario .enviar {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: goldenrod;
+  color: white;
+  border-radius: 20px;
+}
+
+.formulario a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: darkgray;
+}
+.formulario a:hover {
+  color: rgb(69, 69, 56);
