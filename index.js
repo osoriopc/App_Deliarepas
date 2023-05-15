@@ -12,3 +12,33 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+
+fetch("https://dummyjson.com/auth/login", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    username: "kminchelle",
+    password: "0lelplR",
+    // expiresInMins: 60, // optional
+  }),
+})
+  .then((res) => res.json())
+  .then(console.log);
+
+   // check if username and password are not empty
+    if (username.trim() === "" || password.trim() === "") {
+      alert("Please enter your username and password.");
+      return;
+    }
+    
+    // check if username and password are correct
+    if (username === "myusername" && password === "mypassword") {
+      alert("Login successful!");
+    } else {
+      alert("Incorrect username or password.");
+    }
+  }
+  
+
+  
+
